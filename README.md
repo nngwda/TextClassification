@@ -90,10 +90,8 @@ class TextClassification:
  
 def main():   
     """
-    This method train & test the two classifiers
-    Step-1> Train the model. Once the model is trained it will get saved at location<saved_model_loc>.
-            Once the model is trained, you may comment out Step-1 code.
-    Step-2> Predict classification for any given text using MultinomialNB or SGDClassifier.
+    Step-1> Train the model. 
+    Step-2> Predict classification for any given text using SGDClassifier.
     """
    
     #@TODO- Update these two paths to local
